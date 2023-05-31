@@ -1,0 +1,219 @@
+.navbarbg {
+  height: 55px;
+  background-color: white;
+}
+
+input.searche {
+  height: 36px;
+  max-width: 500px;
+  background-color: #eef3f8;
+  border: 0;
+}
+
+input.searche::placeholder {
+  font-size: 14px;
+  color: gray;
+  background-image: url(../assets/search-solid.svg);
+  background-repeat: no-repeat;
+  background-size: 7%;
+  /* "background-position: left center;" ile .svg uzantili ikonu sola aldim ve ortaladim.
+  "text-align: left; ile placeholder içindeki yaziyi sola aldim.*/
+  background-position: left center;
+  text-align: left;
+}
+
+.body {
+  background-color: #f3f2ef;
+}
+
+.menutext {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  margin-top: 5px;
+  font-weight: lighter;
+}
+
+.menutext:hover {
+  color: black;
+}
+
+button.mediatext {
+  color: #5f5f5f;
+}
+
+button.mediatext:hover {
+  color: #5f5f5f;
+}
+
+.mediatext {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #5f5f5f;
+}
+
+i {
+  color: gray;
+  margin-top: 8px;
+}
+i:hover {
+  color: black;
+}
+
+input.content {
+  border-radius: 40px;
+  height: 45px;
+}
+
+/* svg uzantisini kendi dosya konumuna gore ayarlayin. */
+input.content::placeholder {
+  font-weight: bolder;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(/assets/edit-regular.svg);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+div.card {
+  border-radius: 10px;
+}
+
+.header {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.view {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: #5f5f5f;
+}
+
+.categories {
+  font-size: 13px;
+  font-weight: bold;
+  color: #0a66c2;
+}
+
+li {
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+}
+
+.link {
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #5f5f5f;
+}
+
+button.ref {
+  color: white;
+}
+
+button.ref:hover {
+  color: #5f5f5f;
+}
+
+.postphoto {
+  border-radius: 50%;
+  /* width: 50px;
+  height: 50px; */
+  width: 65px;
+  height: 65px;
+  /* 65px olarak guncelledim. */
+}
+.posttext {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  /* margin-left: 8px; */
+}
+
+/* Eklediklerim */
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.pp1 {
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+}
+
+/* Svg colors */
+/* fill özelliği, bir SVG şeklinin içini boyamak veya doldurmak için kullanılır. */
+.svg-color-blue {
+  fill: #70b5f9;
+}
+
+.svg-color-green {
+  fill: #7fc15e;
+}
+
+.svg-color-orange {
+  fill: #e7a33e;
+}
+
+.svg-color-lightcoral {
+  fill: #f5987e;
+}
+
+.fonts {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 13px;
+  color: #474747;
+}
+
+.p-fonts {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  color: black;
+}
+
+.reaction-fonts {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /* font-size: 13px;  */
+  /* font-size guncelledim, font-weight ekledim. */
+  font-size: 14px;
+  font-weight: bold;
+  color: #474747;
+}
+
+.reaction-img-size {
+  width: 24px;
+  height: 24px;
+}
+
+.p-informations {
+  position: sticky;
+  overflow: visible;
+  top: 4rem;
+}
+
+.m-c-s {
+  width: 650px;
+}
+
+.message-sty {
+  height: 50px;
+  position: -webkit-sticky;
+  border-radius: 5px;
+  margin-left: auto;
+  right: 15px;
+  /* 300px */
+  width: 300px;
+}
